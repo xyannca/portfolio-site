@@ -3,11 +3,12 @@ import Image from "next/image";
 
 export default function Home() {
   // TODO: replace these with YOUR real links
-  const githubRepoUrl = "https://github.com/<your-username>/powerbi-dashboard-portfolio";
+  const githubRepoUrl = 
+    "https://github.com/xyannca/powerbi-dashboard-portfolio.git";
   const dashboardPdfUrl =
-    "https://github.com/<your-username>/powerbi-dashboard-portfolio/blob/main/PowerBI_Dashboard_Fiber.pdf";
+    "https://github.com/xyannca/powerbi-dashboard-portfolio/blob/main/PowerBI_Dashboard_Fiber.pdf";
   const overviewPngRawUrl =
-    "https://raw.githubusercontent.com/<your-username>/powerbi-dashboard-portfolio/main/Overview.png";
+    "https://raw.githubusercontent.com/xyannca/powerbi-dashboard-portfolio/main/Overview.png";
 
   return (
     <main style={{ maxWidth: 920, margin: "0 auto", padding: "56px 20px" }}>
