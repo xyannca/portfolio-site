@@ -4,18 +4,22 @@ export default function Data() {
       <h1>Power BI Dashboard</h1>
       <p>Tool: Power BI · Data: Fiber call center operations · Skills: DAX, modeling, UX</p>
 
-      <div style={{ position: "relative", width: "100%", height: "70vh", marginTop: 16 }}>
-        <iframe
-          title="Power BI Dashboard"
-          src="YOUR_POWERBI_EMBED_URL_HERE"
-          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }}
-          allowFullScreen
-        />
-      </div>
+      <a
+        href="https://raw.githubusercontent.com/xyannca/powerbi-dashboard-portfolio/main/PowerBI_Dashboard_Fiber.pdf"
+        target="_blank"
+        rel="noreferer"
+        style={{
+          display: "inline-block",
+          padding: "10px 14px",
+          borderRadius: 10,
+          border: "1px solid #e5e7eb",
+          textDecoration: "none",
+          fontSize: 14,
+        }}
+      >
+        View Dashboard
+      </a>
 
-      <p style={{ marginTop: 12, fontSize: 14, opacity: 0.75 }}>
-        Note: Live view may require Microsoft authorization.
-      </p>
     </main>
   );
 }
