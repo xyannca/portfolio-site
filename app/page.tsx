@@ -1,14 +1,15 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
-    <main style={{ padding: "40px" }}>
+    <main>
       <h1>Projects</h1>
-
-      <ul style={{ marginTop: "20px", lineHeight: "2" }}>
+      <ul>
         <li>
-          <a href="/ai">AI</a>
+          <Link href="/ai">AI</Link>
         </li>
         <li>
-          <a href="/data">Data</a>
+          <Link href="/data">Data</Link>
         </li>
       </ul>
     </main>
