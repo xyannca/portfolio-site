@@ -16,7 +16,7 @@ export default function Home() {
       <section style={{ marginBottom: 36 }}>
         <h1 style={{ fontSize: 42, lineHeight: 1.1, margin: 0 }}>Portfolio</h1>
         <p style={{ fontSize: 18, marginTop: 12, maxWidth: 720 }}>
-          Power BI dashboards and data projects.
+          Power BI Dashboards and Data Projects.
         </p>
       </section>
 
@@ -33,13 +33,12 @@ export default function Home() {
         </p>
 
         <h2 style={{ margin: "10px 0 6px", fontSize: 24 }}>
-          Power BI Dashboard – Fiber Case Study
+          Power BI Dashboard – Fiber Call Center
         </h2>
 
         {/* Option B (short & professional) */}
         <p style={{ margin: "0 0 14px", fontSize: 15, opacity: 0.9, maxWidth: 760 }}>
-          Designed an interactive Power BI dashboard to analyze call center KPIs and uncover
-          insights that support operational efficiency and service quality improvements.
+          Designed an interactive Power BI dashboard to analyze call center KPIs that support operational efficiency and service quality improvements.
         </p>
 
         {/* Preview image */}
